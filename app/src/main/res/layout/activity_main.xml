@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Welcome to My App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnOpenMultimedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Multimedia"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnOpenMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Map"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnOpenSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Sensor"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnOpenDataBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to DataBase"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
